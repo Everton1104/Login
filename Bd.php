@@ -6,7 +6,7 @@
 		{
 			try
 			{
-				$this->conn = new PDO("mysql:host=www.evertonrs.com.br;dbname=evertonr_php", "evertonr_admin", "97129712wifi");
+				$this->conn = new PDO("mysql:host=www.evertonrs.com.br;dbname=db_php", "", "");
 			}
 			catch(Exception $e)
 			{
