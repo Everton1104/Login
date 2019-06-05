@@ -11,7 +11,6 @@
 		<input type="submit" name="ok" value="Cadastrar"><br/>
 		<a href="index.php">Voltar</a></br>
 		<?php 
-		    //ucfirst(); forca a primeira letra ser maiuscula.
 			require_once "Bd.php";
 			if(isset($_POST['ok']))
 			{
